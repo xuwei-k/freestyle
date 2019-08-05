@@ -305,7 +305,7 @@ lazy val slickExample = jvmModule("slick-example", subFolder = Some("examples"))
   .settings(
     libraryDependencies ++= Seq(
       "org.postgresql"     % "postgresql"     % "42.1.1",
-      "com.typesafe.slick" %% "slick-codegen" % "3.2.0"
+      "com.typesafe.slick" %% "slick-codegen" % "3.2.3"
     ) ++ commonDeps
   )
 
